@@ -1,0 +1,23 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>Methods in JavaScript</h3>
+    <p id="demo"></p>
+    <h3>Methods in JavaScript</h3>
+    <script>
+        const person = {
+            firstName: "Harsimran",
+            lastName: "Singh",
+            id: 2104117,
+            fullName: function(){
+                return this.firstName + " " + this.lastName + " " + this.id;
+            }
+        }
+        document.getElementById("demo").innerHTML= person.fullName();
+    </script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Diary</title>
+</head>
+<body>
+    <h3>Daily Diary</h3>
+    <div id="links"></div>
+    <script>
+        const linkContainer = document.getElementById("links");
+        for (let i = 1; i <= 30; i++) {
+            const aTag = document.createElement("a");
+            aTag.href = `day${i}/diary.html`;
+            aTag.innerText = `Day_${i}`;
+            linkContainer.appendChild(aTag);
+            linkContainer.appendChild(document.createElement("br")); // Add line break
+        }
+    </script>
+
+</body>
+</html>

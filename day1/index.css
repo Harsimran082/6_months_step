@@ -1,0 +1,23 @@
+.container {
+    background-color: rgba(196, 94, 94, 0.644);
+    width: 360px;
+    height: auto;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+table {
+    background-color: rgb(57, 165, 66);
+    margin: 35px;
+    padding: 15px;
+}
+
+.submit{
+    margin-left: 120px;
+}
+.map {
+    margin: 15px;
+    height: 100px;
+    width: 100px;
+    margin-bottom: 50px;
+    text-align: center;
+}
